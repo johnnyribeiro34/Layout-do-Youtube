@@ -1,0 +1,86 @@
+body{
+    font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+main{
+    width: 900px;
+    height: 415px;
+    background-color: #F7F7F7;
+    display: grid;
+    grid-template-columns: repeat(2,auto-fill);
+    grid-template-rows: repeat(3, auto)
+    
+    
+}
+
+
+.secao-principal{
+    grid-area: 1 / 1 /span 3;
+    
+}
+
+.secao-lateral{
+grid-area: 1 / 2 / span 2 ;
+}
+
+
+.secao-principal{
+    padding: 35px 38px;
+}
+ 
+.video01{
+    width: 543px;
+    height: 217px;
+}
+.h1{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 12px;
+}
+.visualizacao{
+    font-size: 14px;
+    margin-top: 7px;
+
+}
+.loren{
+    font-size: 16px;
+    margin-top: 9px;
+
+}
+
+/* ########################### */
+
+
+.secao-lateral{
+    padding-top: 35px;
+   
+}
+.propaganda{
+    width: 270px;
+    height: 56px;
+    margin-bottom: 20px;
+}
+.video02{
+    width: 267px;
+    height: 72px;
+    display: flex;
+    margin-bottom: 15px;
+    gap: 5px;
+}
+
+
+.h2{
+    font-size:14px ;
+    font-weight: 700;
+    margin-bottom: 7px;
+
+}
+.p{
+font-size: 11px;
+margin-bottom: 5px;
+}
